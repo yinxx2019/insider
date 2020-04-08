@@ -61,7 +61,6 @@ h1+div {
 }
 
 nav {
-    display: inline-block;
     font-family: 'Roboto Slab', serif;
     float: right;
     padding-right: 12px;
@@ -72,7 +71,7 @@ nav a {
     text-decoration: none;
     font-size: 20px;
     transition-property: color;
-    transition-duration: 0.5s;
+    transition-duration: 0.2s;
 }
 
 nav a:hover {
@@ -81,7 +80,7 @@ nav a:hover {
 
 footer {
     text-align: center;
-    background-color: #1d1717;
+    background-color: rgb(120, 0, 0);
     color: #fffff0;
     padding: 8px;
 }
