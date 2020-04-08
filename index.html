@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto|Yeseva+One|Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>An Insider's Guide to Beijing, China</title>
+  </head>
+  <body>
+    <header id="bodyheader">
+      <h1>An Insider's Guide to Beijing, China</h1>
+      <div><b>Population</b>: 21.71 million <i>(2017)</i></div>
+      <nav>
+        <a href="/">Home</a> |
+        <a href="/costestimator.html/">Cost Estimator</a> |
+        <a href="/weather.html/">Weather</a>
+      </nav>
+    </header>
+    <section>
+      <p>Located on the edge of the vast North China Plain, China’s sprawling capital Beijing is a historical city with a rich cultural heritage. Renowned for ancient architecture sites, traditional folk arts and unique cuisine, Beijing is a cultural hub of China that represents the magnificence of Chinese culture stretching out three millennia. In the heart of the city, one can trace the contemporary Chinese history: the classic Forbidden City palace complex sits right next to the modern Tiananmen Square pedestrian plaza that houses the Great Hall of the People, the Monument to the People's Heroes and the National Museum of China.</p>
+    </section>
+    <aside>
+      <blockquote cite="https://www.brainyquote.com/quotes/ma_yansong_901687?src=t_beijing">I grew up in the old neighborhood of Beijing where you had a courtyard and trees. Actually, the whole of Beijing was a garden - the Forbidden City - and the lakes and gardens in the city center were all artificial. — <cite>Ma Yansong, Architect</cite></blockquote>
+    </aside>
+    <section>
+      <header id="fact-header">
+        <h2 class="listheading">Some <em id="word-facts" class="standout">Facts</em> about Beijing</h2>
+      </header>
+      <ul id="facts">
+        <li>Beijing has been the capital city for 6 times since 221 BC</li>
+        <li>Beijing is soon-to-be the first city that hosts both summer and winter Olympics.</li>
+        <li>Beijing is a <strong>HUGE</strong> city!</li>
+      </ul>
+    </section>
+    <section id="clear">
+      <header>
+        <h2 class="listheading">Only <em id="word-insiders" class="standout">Insiders</em> Know...</h2>
+      </header>
+      <ul id="intheknow">
+        <li>Beijing is a very diverse city with many cultural and ethnic minority neighborhoods such as Niujie Area, which chambers the oldest and largest mosque in Beijing that constructed in 996 AD, and Wangjing Area, the Koreatown.</li>
+        <li>There are many delicious foods and cool shops hidden in Hutongs, the Beijing version of narrow streets and alleys.</li>
+      </ul>
+    </section>
+    <section>
+      <header>
+        <h2 class="listheading">Top 3 Things to Do or See</h2>
+      </header>
+      <ol id="todo">
+        <li>The Forbidden City</li>
+        <li>The Great Wall</li>
+        <li>The Summer Palace</li>
+      </ol>
+    </section>
+    <section>
+      <header>
+        <h2>Images</h2>
+      </header>
+      <div id="images">
+        <figure>
+          <img src="images/great-wall.jpg" alt="the Great Wall">
+          <figcaption>the Great Wall in Beijing</figcaption>
+        </figure>
+        <figure>
+          <img src="images/hall-of-heaven.jpg" alt="the Hall of Heaven">
+          <figcaption>the Hall of Heaven in Beijing</figcaption>
+        </figure>
+        <figure>
+          <img src="images/night-view.jpg" alt="night view">
+          <figcaption>Beijing Night View</figcaption>
+        </figure>
+        <!-- all photos are attribution free -->
+      </div>
+    </section>
+    <section>
+      <header>
+        <h2>Best Places to Eat</h2>
+      </header>
+      <div id="map"></div>
+      <script src="map.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAl9iy6HNigEShgS04RMS2m_5gi8sp-7lw&amp;callback=initMap" async="" defer=""></script>
+    </section>
+    <section>
+      <header>
+        <h2>Contact Us</h2>
+      </header>
+      <form action="https://www.jasontmickel.com/dci110/mailform/mail.php" method="post">
+        <div>
+          <label for="contact">Your Name:</label>
+          <input type="text" name="contact" id="contact" placeholder="Your Name" required>
+        </div>
+        <div>
+          <label for="email">Your Email Address:</label>
+          <input type="email" name="email" id="email" placeholder="Your Email Address" required>
+        </div>
+        <div>
+          <label for="purpose">Nature of the Message:</label>
+          <select name="purpose" id="purpose" required>
+            <option value="question">Question</option>
+            <option value="comment">Comment</option>
+            <option value="request">Request</option>
+            <option value="following-up">Following up</option>
+          </select>
+        </div>
+        <div>
+          <div>
+            <label for="message">Your Message:</label>
+          </div>
+          <div>
+            <textarea name="message" id="message" cols="60" rows="15" placeholder="Please limit your message to no more than 800 characters" required></textarea>
+          </div>
+        </div>
+        <input type="hidden" name="email_to" id="email_to" value="yinx19@mail.wlu.edu">
+        <div>
+          <button name="submit">Subscribe</button>
+        </div>
+      </form>
+    </section>
+    <section>
+      <dl>
+        <dt><a href="http://www.ebeijing.gov.cn/" target="_blank">eBeijing</a></dt>
+        <dd>Beijing's Official International Website</dd>
+        <dt><a href="https://www.lonelyplanet.com/china/beijing" target="_blank">Lonely Planet</a></dt>
+        <dd>Beijing travel guide</dd>
+        <dt><a href="http://www.chinadaily.com.cn/beijing/news.html" target="_blank">China Daily</a></dt>
+        <dd>Beijing News in English</dd>
+      </dl>
+    </section>
+    <footer>&copy; 2019, Xiaoxia Yin</footer>    
+  </body>
+</html>

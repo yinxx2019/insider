@@ -1,0 +1,300 @@
+section {
+    margin: 8px;
+}
+
+img {
+    width: 100%;
+}
+
+figure {
+    display: inline-block;
+    flex: 200px;
+    margin: 1.5%;
+    vertical-align: text-bottom;
+}
+
+figcaption {
+    margin-top: 5px;
+    font-style: italic;
+    font-size: 0.85em;
+}
+
+body>header {
+    text-align: center;
+    background-color: rgb(120, 0, 0);
+    color: #FFFFF5;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+section:first-of-type {
+    margin-top: 180px;
+}
+
+h2 {
+    background-color: rgb(160, 0, 0);
+    font-family: 'Yeseva One', cursive;
+    color: #fffff1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bold;
+    font-size: 2.6em;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+h1+div {
+    display: inline-block;
+    width: 40%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+nav {
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    float: right;
+    padding-right: 12px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+nav a:hover {
+    color: #A89C9C;
+}
+
+footer {
+    text-align: center;
+    background-color: #1d1717;
+    color: #fffff0;
+    padding: 8px;
+}
+
+section p {
+    padding: 0px 1px 8px 5px;
+}
+
+li {
+    line-height: 1.5;
+}
+
+dl {
+    line-height: 3em;
+}
+
+dt a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+dt a:hover {
+    color: #DF9C9C;
+}
+
+dd {
+    margin-inline-start: 0;
+}
+
+dl, dd {
+    text-align: center;
+}
+
+aside {
+    background-color: #FFFFFF;
+    color: #000000;
+    letter-spacing: 1.1px;
+    word-spacing: 1.3px;
+    font-family: cursive;
+    font-size: 21px;
+    font-weight: 200;
+    width: 390px;
+    float: right;
+    border: 2px groove rgb(160, 0, 0);
+    border-radius: 12px 0 0 12px;
+    margin: 0 0 1em 20px;
+    box-shadow: 2px 2px 2px 2px #A89C9C;
+}
+
+#fact-header {
+    margin-right: 410px;
+}
+
+section#clear {
+    clear: right;
+}
+
+blockquote {
+    text-align: right;
+    margin: 4px 8px;
+    padding: 0 5px 6px 0;
+    line-height: 1.4;
+}
+
+blockquote:first-letter {
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+#images{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgb(160, 0, 0);
+    color: white
+}
+
+tr {
+    border-top: 1px inset black;
+    border-bottom: 1px inset black;
+}
+
+th, td {
+    padding: 2px;
+}
+
+label {
+    width: 200px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form {
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 2px groove rgb(120, 0, 0);
+}
+
+#calcintro~section {
+    border: 1px solid rgb(140, 0, 0);
+    padding: 0.5em 1em;
+    border-radius: 20px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.cost {
+    font-weight: bold;
+}
+
+#userinput label {
+    width: 60%;
+    text-align: right;
+}
+
+#userinput input {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#results table {
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+#results th {
+    text-align: right;
+}
+
+#results td {
+    width: 20%;
+    text-align: right;
+}
+
+#results caption {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: left;
+}
+
+#map {
+    height: 600px;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 2em;
+    }
+    section:first-of-type {
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+    section:first-of-type {
+        margin-top: 120px;
+    }
+    #fact-header {
+        margin-right: 350px;
+    }
+    aside {
+        font-size: 16px;
+        font-weight: 400;
+        width: 320px
+    }
+    h1+div {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        float: none;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 1.2em;
+    }
+    section:first-of-type {
+        margin-top: 100px;
+    }
+    nav a {
+        font-size: 1em;
+    }
+    #fact-header {
+        margin-right: 0;
+    }
+    aside {
+        display: none;
+    }
+}

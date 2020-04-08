@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>An Insider's Guide to Beijing: Trip Cost Estimator</title>
+  </head>
+  <body>
+    <header id="bodyheader">
+      <h1>An Insider's Guide to Beijing, China</h1>
+      <div><b>Population</b>: 21.71 million <i>(2017)</i></div>
+    </header>
+    <section id="calcintro">
+      <header>
+        <h2>Trip Cost Calculator</h2>
+      </header>
+      <p>This page is to help you calculate your estimated trip costs. Please enter values in the fields that follow</p>
+    </section>
+    <section id="userinput">
+      <div>
+        <label for="nights">How many nights are you staying?</label>
+        <input id="nights" type="number" value="1">
+      </div>
+      <div>
+        <label for="rooms">How many hotel rooms do you need?</label>
+        <input id="rooms" type="number" value="1">
+      </div>
+      <div>
+        <label for="adults">How many adults and teens (13 or older) are on the trip?</label>
+        <input id="adults" type="number" value="1">
+      </div>
+      <div>
+        <label for="children">How many children (12 or younger) are on the trip?</label>
+        <input id="children" type="number" value="0">
+      </div>
+      <div>
+        <label for="hotel">Type of hotel being booked</label>
+        <select name="hotel" id="hotel">
+          <option value="b">Budget</option>
+          <option value="l">Luxury</option>
+        </select>
+      </div>
+    </section>
+    <section id="results"></section>
+    <footer>&copy; 2019, Xiaoxia Yin</footer>
+    <script src="script.js"></script>
+  </body>
+</html>

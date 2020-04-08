@@ -1,0 +1,80 @@
+{
+    "type" : "FeatureCollection",
+    "features" : [
+      {
+        "type" : "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [116.478969, 39.977499]
+        },
+        "properties": {
+          "name": "Pure Lotus",
+          "description": "<p>Step into this fantasy vegetarian paradise owned by a former monk, and you’ll feel swept away by the dramatic dining room. The flavors are clean, bright, and thoughtful in this reliable upscale vegetarian paradise.</p>",
+          "hours": "<table><tr><th>Opens</th><th>Closes</th></tr><tr><td>11am</td><td>11pm</td></tr></table>",
+          "menu": "<ol><li>Salad</li><li>Soup</li><li>Vegetarian Beijing Duck</li></ol>",
+          "icon": "http://maps.google.com/mapfiles/kml/pal2/icon32.png",
+          "weblink": "https://www.thebeijinger.com/directory/pure-lotus-vegetarian"
+        }
+      },
+      {
+        "type" : "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [116.431180, 39.933954]
+        },
+        "properties": {
+          "name": "Dadong Roast Duck",
+          "description": "<p>Da Dong, the recognized personality behind his eponymous roast duck restaurants, is giving fast food a go, and the duck burger is nothing short of impressive. A hunk of roast duck is carved out and sandwiched between halves of a sesame seed bun.</p>",
+          "hours": "<table><tr><th>Opens</th><th>Closes</th></tr><tr><td>11am</td><td>10pm</td></tr></table>",
+          "menu": "<ol><li>Baked Flounder</li><li>Beijing Roast Duck</li><li>Hot and Spicy Lobster</li></ol>",
+          "icon": "http://maps.google.com/mapfiles/kml/pal2/icon32.png",
+          "weblink": "https://www.thebeijinger.com/directory/da-dong-roast-duck"
+        }
+      },
+      {
+        "type" : "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [116.431678, 39.911997]
+        },
+        "properties": {
+          "name": "Chuan Ban",
+          "description": "<p>Amongst the restaurants scattered throughout Beijing that represent provincial governments, this is still one of the better options for an authentic taste of Sichuan’s sophisticated flavors. Ingredients are flown in each week, ensuring fresh, tingling, numbing peppercorns on any dish, including the shuizhuyu, a spicy oil-poached fish dish, and other classics.</p>",
+          "hours": "<table><tr><th>Opens</th><th>Closes</th></tr><tr><td>12pm</td><td>10pm</td></tr></table>",
+          "menu": "<ol><li>Mapo Tofu</li><li>Twice Cooked Pork</li><li>Hot and Spicy Beef</li></ol>",
+          "icon": "http://maps.google.com/mapfiles/kml/pal2/icon32.png",
+          "weblink": "https://www.thebeijinger.com/directory/chuan-ban"
+        }
+      },
+      {
+        "type" : "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [116.402538, 39.915408]
+        },
+        "properties": {
+          "name": "TRB Forbidden City",
+          "description": "<p>Just overlooking the moat surrounding the Forbidden City, the newest addition to Ignace Lecleir’s Temple restaurant collection serves modern European dishes priced by the course in a build-your-own meal formula with knockout selections that are reasonably priced.</p>",
+          "hours": "<table><tr><th>Opens</th><th>Closes</th></tr><tr><td>11am</td><td>9pm</td></tr></table>",
+          "menu": "<ol><li>Ravioli</li><li>Soup</li><li>Dessert</li></ol>",
+          "icon": "http://maps.google.com/mapfiles/kml/pal2/icon32.png",
+          "weblink": "http://trb-forbiddencity.com/"
+        }
+      },
+      {
+        "type" : "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [116.454711, 39.939119]
+        },
+        "properties": {
+          "name": "Transit",
+          "description": "<p>Transit made waves on the Beijing dining scene back in 2012 when it first opened, serving up sleek renditions of classic Sichuan dishes. Now it's back and the dishes are just as sleek, and splashed with not-so-traditional flavours that elevate the traditional classics into something more modern, to varying degrees of success.</p>",
+          "hours": "<table><tr><th>Opens</th><th>Closes</th></tr><tr><td>11:30am</td><td>10pm</td></tr></table>",
+          "menu": "<ol><li>Mouthwatering chicken</li><li>Fried Rice</li><li>Xiaolongbao</li></ol>",
+          "icon": "http://maps.google.com/mapfiles/kml/pal2/icon32.png",
+          "weblink": "http://www.timeoutbeijing.com/venue/Food__Drink-Chinese-Sichuan/11320/Transit.html"
+        }
+      }
+    ]
+  }
